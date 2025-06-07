@@ -439,13 +439,17 @@
         }
 
         .remove-var-btn {
-            background-color: var(--dark-border);
+            background-color: var(--bg-color);
             color: var(--text-muted-color);
-            border: 1px solid var(--dark-border);
+            border: 0.10px solid var(--dark-border);
             border-radius: 6px;
             cursor: pointer;
             height: 44px;
             width: 44px;
+        }
+        [data-theme="dark"] .remove-var-btn {
+            background-color: var(--dark-border);
+            border: 1px solid var(--dark-border);
         }
 
         .remove-var-btn:hover {
